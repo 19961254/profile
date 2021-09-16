@@ -1,0 +1,143 @@
+@charset "UTF-8";
+{outline:1px solid #ff0000;}
+body{	
+	margin:0;
+	outline:1px solid #ff0000;
+	font-family:serif;
+}
+
+h1{
+	display:inline; 
+}
+/* ヘッダー
+------------------------------------------------------------*/
+
+.navigation{
+	position:fixed;
+	z-index: 3;
+	background-color:#000;
+	filter:Opacity(0.85);
+	width:100%;
+}
+.logo{
+	width:13em;
+	padding-right:25em;
+}
+nav li{
+	list-style-type:none;
+	display:inline;
+	font-weight:300;
+	color:#fff;
+	padding-right:5em;
+	font-size:1.2em;
+}
+
+/* トップ
+------------------------------------------------------------*/
+.top{
+	width:100%;
+
+}
+.top-box{
+	position:relative;
+	 z-index: 2;
+}
+.top-text-box{
+	position:absolute;
+	top:30%;
+	left:60%;
+	color:#fff;	
+}
+.top-text{
+	font-weight:500;
+	font-size:2.5em;
+	letter-spacing:0.1em;
+	line-height:1.1em;
+}
+
+
+/*自己紹介
+------------------------------------------------------------*/
+.profile-box{
+	display:-webkit-flex;
+	flex-wrap:wrap-reverse;
+	padding:7em;
+	margin:7em 0;
+	background-color:#eae4dc;
+}
+.person{
+	width:50%;
+	margin-left:7em;
+}
+
+
+
+/* スキル
+------------------------------------------------------------*/
+
+.skill-text-box{
+	padding:0 7em 0;
+	color:#6b290c;
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	gap:3em;
+	text-align:center;
+}
+.skill-text{
+	font-weight:450;
+	font-size:1.6em;
+	border-radius:5%;
+	background-color: rgba(255, 255, 255, 0.3);
+	padding:2em;
+}
+.skill{
+	margin:7em 7em 4em 7em;
+	color: rgba(255, 255, 255, 0.7);
+}
+.skill-background{
+	width:100%;
+	position:relative;
+}
+.skill-wrap{
+	position:absolute;
+	z-index: 1;
+}
+.annotation{
+	font-size:0.6em;
+	color: rgba(255, 255, 255, 0.93);
+	text-align:center;
+}
+/* 趣味・特技
+------------------------------------------------------------*/
+.hobby-box{
+	display:-webkit-flex;
+	flex-wrap:wrap-reverse;
+	background:#737373;
+	padding:7em;
+	margin:7em 0 0;
+	color:#fff;
+}
+.hobby-picture{
+	margin-right:7em;
+}
+.picture{
+	width:13em;
+}
+
+/* フッター
+------------------------------------------------------------*/
+footer{
+	background:#85928c;
+	padding:5em;
+	text-align:center;
+	color:#fff;
+}
+.URL{
+	font-size:0.6em;
+}
+/* リンク
+------------------------------------------------------------*/
+a:link{		color:#fff;}
+a:visited{	color:#fff;}
+a:hover{	color:#fff;}
+a:active:{	color:#fff;}
